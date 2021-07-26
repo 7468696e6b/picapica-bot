@@ -10,6 +10,7 @@
 const Discord = require('discord.js');
 // dotenv module to hide TOKEN from GitHub using .env and .gitignore
 const dotenv = require('dotenv');
+dotenv.config();
 
 // Create an instance of a Discord client
 const client = new Discord.Client();
